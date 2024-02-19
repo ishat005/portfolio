@@ -5,7 +5,7 @@
     padding: 1rem;
 }
 
-@media (min-width:320px){
+/* @media (min-width:320px){
     .footer{
         width: 130%;
     }
@@ -13,7 +13,6 @@
 
 @media (min-width:768px){
     .footer{
-        width: 287%;
         position: relative;
         top: 10rem;
         padding: 4rem;
@@ -27,5 +26,14 @@
         top: 28rem;
         padding: 4rem;
         font-size: 1.2rem;
+    }
+} */
+
+@media (min-width: 2560px){
+    .footer{
+        padding: 4rem;
+        width: 130%;
+        position: relative;
+        top: 22rem;
     }
 }

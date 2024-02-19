@@ -1,9 +1,9 @@
 * {box-sizing: border-box;}
 
 @media (min-width: 768px){
- .row{
+ /* .row{
     display: flex;
- }
+ } */
 
  img{
     padding-right: 1rem;
@@ -77,14 +77,18 @@
     /* width: 256px;
     height: 278px; */
     height: 80vh;
+    /* position: relative;
+    left: 44rem; */
     position: relative;
-    left: 44rem;
+    left: 0rem;
   }
 
   .bandsite{
     height: 80vh;
+    /* position: relative;
+    left:22rem; */
     position: relative;
-    left:22rem;
+    left: 0rem;
   }
 
   .portfolio-container{
@@ -93,9 +97,28 @@
   }
 }
 
-@media (min-width: 1024px){
+
+@media (min-width: 2560px){
   .brainflix, .bandsite, .always-eating-well{
-    width:70vw;
+    width: 38vw;
+    height: 58vh;
+    padding-bottom: 5rem;
+    padding-top: 1rem;
+  }
+
+  .portfolio-container{
+    position: relative;
+    top: 28rem;
+  }
+}
+
+
+@media (min-width: 1024px) and (max-width:2056px){
+  .brainflix, .bandsite, .always-eating-well{
+    width: 100vw;
+    height: 89vh;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
   }
 
   #brainflix-overlay{
