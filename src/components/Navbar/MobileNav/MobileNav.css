@@ -20,6 +20,12 @@
   padding: 2rem;
 }
 
+@media (min-width: 320px){
+  .mobile-menu-container{
+    width: 82vw;
+  }
+}
+
 .mobile-menu.active {
   opacity: 1;
   transform: translateX(0);

@@ -5,12 +5,50 @@
     padding: 1rem;
 }
 
-/* @media (min-width:320px){
+@media (min-width:320px) and (max-width: 768px){
     .footer{
-        width: 130%;
+        width: 131%;
+        position: relative;
+        top: 28rem;
     }
 }
 
+@media (min-width: 768px) and (max-width: 1024px){
+    .footer{
+        width: 181%;
+        position: relative;
+        top: 18rem;
+        padding-right: 8rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 2560px){
+    .footer{
+        width: 181%;
+        position: relative;
+        top: 24rem;
+        padding-right: 8rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 2560px){
+    .footer{
+        width: 131%;
+        position: relative;
+        top: 20rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        font-size:1.8rem;
+    }
+}
+
+/*
 @media (min-width:768px){
     .footer{
         position: relative;
@@ -29,11 +67,11 @@
     }
 } */
 
-@media (min-width: 2560px){
+/* @media (min-width: 2560px){
     .footer{
         padding: 4rem;
         width: 130%;
         position: relative;
         top: 22rem;
     }
-}
+} */

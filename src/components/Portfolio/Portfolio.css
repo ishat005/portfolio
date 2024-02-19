@@ -10,10 +10,15 @@
  }
 }
 
-@media (min-width:320px){
+@media (min-width:320px) and (max-width: 768px){
   .row{
     position: relative;
-    bottom: 28rem;
+    bottom: 25rem;
+  }
+
+  h5{
+    position: relative;
+    bottom: 25rem;
   }
 }
 
@@ -33,24 +38,23 @@
 
 @media (min-width: 320px){
     .brainflix{
-      /* width: auto;  
-      height:180px; */
       height: 84vh;
       width: 100vw;
     }
 
     .always-eating-well{
-      /* width: auto;
-      height: 180px; */
       height: 84vh;
       width: 100vw;
     }
 
     .bandsite{
-      /* width: 170px;
-      height: 180px; */
       height: 84vh;
       width: 100vw;
+    }
+
+    .portfolio-container{
+      position: relative;
+      top: 23rem;
     }
 }
 
@@ -67,7 +71,7 @@
   }
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) and (max-width: 1024px){
   .brainflix{
     height: 80vh;
     padding-right: 1rem;
@@ -93,7 +97,12 @@
 
   .portfolio-container{
     position: relative;
-    top: 15rem;
+    top: -12rem;
+  }
+
+  h5{
+    position: relative;
+    bottom: 27rem;
   }
 }
 
@@ -108,10 +117,9 @@
 
   .portfolio-container{
     position: relative;
-    top: 28rem;
+    top: 0rem;
   }
 }
-
 
 @media (min-width: 1024px) and (max-width:2056px){
   .brainflix, .bandsite, .always-eating-well{
@@ -141,7 +149,7 @@
 
   .portfolio-container{
     position: relative;
-    top: 30rem;
+    top: -3rem;
   }
 }
 
@@ -200,14 +208,83 @@
 
   #bandsite-overlay{
     position: absolute;
-    left:32rem;
-    top:160px;
+    left: 10rem;
+    top: 169px;
   }
 
   #always-eating-well-overlay{
     position: absolute;
-    left:55rem;
-    top:160px;
+    left: 11rem;
+    top: 170px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px){
+  #brainflix-overlay{
+    position: absolute;
+    top: 355px;
+    left: 17rem;
+    font-size: 1.8rem;
+  }
+
+  #bandsite-overlay{
+    position: absolute;
+    top: 355px;
+    left: 17rem;
+    font-size: 1.8rem;
+  }
+
+  #always-eating-well-overlay{
+    position: absolute;
+    top: 355px;
+    left: 17rem;
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 2056px){
+  #brainflix-overlay{
+    position: absolute;
+    top: 399px;
+    left: 28rem;
+    font-size: 1.8rem;
+  }
+
+  #bandsite-overlay{
+    position: absolute;
+    top: 399px;
+    left: 28rem;
+    font-size: 1.8rem;
+  }
+
+  #always-eating-well-overlay{
+    position: absolute;
+    top: 399px;
+    left: 28rem;
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 2056px){
+  #brainflix-overlay{
+    position: absolute;
+    top: 529px;
+    left: 38rem;
+    font-size: 1.9rem;
+  }
+
+  #bandsite-overlay{
+    position: absolute;
+    top: 480px;
+    left: 38rem;
+    font-size: 1.9rem;
+  }
+
+  #always-eating-well-overlay{
+    position: absolute;
+    top: 529px;
+    left: 40rem;
+    font-size: 1.9rem;
   }
 }
 
@@ -224,9 +301,9 @@ h5{
     margin-bottom: 1rem;
 }
 
-@media (min-width:320px){
+/* @media (min-width:320px){
   h5{
     position: relative;
     bottom: 28rem;
   }
-}
+} */
