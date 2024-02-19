@@ -119,6 +119,24 @@
     position: relative;
     top: 0rem;
   }
+
+  #brainflix-overlay{
+    position: absolute;
+    top:260px;
+    left:18rem
+  }
+
+  #bandsite-overlay{
+    position: absolute;
+    top:260px;
+    left:32rem;
+  }
+
+  #always-eating-well-overlay{
+    position: absolute;
+    top:260px;
+    left:18rem;
+  }
 }
 
 @media (min-width: 1024px) and (max-width:2056px){
@@ -144,7 +162,7 @@
   #always-eating-well-overlay{
     position: absolute;
     top:260px;
-    left:55rem;
+    left:18rem;
   }
 
   .portfolio-container{
