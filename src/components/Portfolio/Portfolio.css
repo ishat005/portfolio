@@ -1,0 +1,209 @@
+* {box-sizing: border-box;}
+
+@media (min-width: 768px){
+ .row{
+    display: flex;
+ }
+
+ img{
+    padding-right: 1rem;
+ }
+}
+
+@media (min-width:320px){
+  .row{
+    position: relative;
+    bottom: 28rem;
+  }
+}
+
+.column {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+.brainflix, .bandsite{
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 1s ease;
+  opacity:1;
+}
+
+@media (min-width: 320px){
+    .brainflix{
+      /* width: auto;  
+      height:180px; */
+      height: 84vh;
+      width: 100vw;
+    }
+
+    .always-eating-well{
+      /* width: auto;
+      height: 180px; */
+      height: 84vh;
+      width: 100vw;
+    }
+
+    .bandsite{
+      /* width: 170px;
+      height: 180px; */
+      height: 84vh;
+      width: 100vw;
+    }
+}
+
+@media(min-width: 375px){
+  .brainflix, .bandsite, .always-eating-well{
+    padding-right: 1rem;
+  }
+}
+
+@media(min-width:525px){
+  .brainflix, .bandsite, .always-eating-well{
+    width:90vw;
+    height:95vh;
+  }
+}
+
+@media (min-width: 768px){
+  .brainflix{
+    height: 80vh;
+    padding-right: 1rem;
+  }
+
+  .always-eating-well{
+    /* width: 256px;
+    height: 278px; */
+    height: 80vh;
+    position: relative;
+    left: 44rem;
+  }
+
+  .bandsite{
+    height: 80vh;
+    position: relative;
+    left:22rem;
+  }
+
+  .portfolio-container{
+    position: relative;
+    top: 15rem;
+  }
+}
+
+@media (min-width: 1024px){
+  .brainflix, .bandsite, .always-eating-well{
+    width:70vw;
+  }
+
+  #brainflix-overlay{
+    position: absolute;
+    top:260px;
+    left:10rem
+  }
+
+  #bandsite-overlay{
+    position: absolute;
+    top:260px;
+    left:32rem;
+  }
+
+  #always-eating-well-overlay{
+    position: absolute;
+    top:260px;
+    left:55rem;
+  }
+
+  .portfolio-container{
+    position: relative;
+    top: 30rem;
+  }
+}
+
+.brainflix:hover, .bandsite:hover, .always-eating-well:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+    opacity: 0.5;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+
+}
+
+@media(max-width: 600px){
+  .overlay{
+    width: 13.1rem;
+    position: absolute;
+    top: 128px;
+    left: 1.5rem;
+  }
+
+  .bandsite, .brainflix, .always{
+    margin: 0 auto;
+  }
+}
+
+@media(min-width:425px){
+  .overlay{
+    width: 13.1rem;
+    position: absolute;
+    top: 117px;
+    left: 3.5rem;
+  }
+}
+
+@media(min-width:768px) and (max-width:1024px){
+  #brainflix-overlay{
+    width: 13.1rem;
+    position: absolute;
+    top: 160px;
+    left: 9.5rem;
+  }
+
+  #bandsite-overlay{
+    position: absolute;
+    left:32rem;
+    top:160px;
+  }
+
+  #always-eating-well-overlay{
+    position: absolute;
+    left:55rem;
+    top:160px;
+  }
+}
+
+.column:hover .overlay {
+  opacity: 1;
+}
+
+img{
+    padding-bottom: 2rem;
+}
+
+h5{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+@media (min-width:320px){
+  h5{
+    position: relative;
+    bottom: 28rem;
+  }
+}

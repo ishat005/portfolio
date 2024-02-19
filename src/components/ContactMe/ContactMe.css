@@ -1,0 +1,47 @@
+.contact-container {
+  margin: 4rem 0;
+  position: relative;
+}
+
+@media (min-width:768px){
+  .contact-container{
+    position: relative;
+    top: 17rem;
+  }
+}
+
+@media (min-width: 1024px){
+  .contact-container{
+    position: relative;
+    top: 35rem;
+  }
+}
+
+.contact-container h5 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+
+.contact-content {
+  display: flex;
+  gap: 3rem;
+}
+
+@media (max-width: 768px) {
+  .contact-content {
+    flex-direction: column-reverse;
+  }
+
+  .contact-container h5 {
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (min-width:320px){
+  .contact-container h5{
+    position: relative;
+    bottom: 31rem;
+  }
+}
