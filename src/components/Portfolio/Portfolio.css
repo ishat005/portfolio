@@ -215,23 +215,23 @@
 
   #brainflix-overlay{
     position: absolute;
-    top: 475px;
-    left: 38rem;
-    font-size: 1.9rem;
+    top: 296px;
+    left: 17rem;
+    font-size: 1.8rem;
   }
 
   #bandsite-overlay{
     position: absolute;
-    top: 485px;
-    left: 38rem;
-    font-size: 1.9rem;
+    top: 265px;
+    left: 17rem;
+    font-size: 1.8rem;
   }
 
   #always-eating-well-overlay{
     position: absolute;
-    top: 480px;
-    left: 40rem;
-    font-size: 1.9rem;
+    top: 296px;
+    left: 17rem;
+    font-size: 1.8rem;
   }
 }
 
