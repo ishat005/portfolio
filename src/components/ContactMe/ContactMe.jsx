@@ -18,6 +18,11 @@ const ContactMe = () => {
             iconUrl="./assets/images/github-icon.svg"
             text="https://github.com/ishat005"
           />
+
+          <ContactInfoCard
+            iconUrl="./assets/images/linkedin-icon.png"
+            text="https://www.linkedin.com/in/thakurisha/"
+          />
         </div>
 
       </div>

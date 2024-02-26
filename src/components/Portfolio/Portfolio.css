@@ -73,8 +73,9 @@
 
     #always-eating-well-overlay{
       position: absolute;
-      top: 125px;
-      left: 5rem;
+      top: 46px;
+      left: 4rem;
+      width: 130%;
       font-size: 0.8rem;
     }
 }
@@ -94,18 +95,18 @@
 
 @media (min-width: 768px) and (max-width: 1024px){
   .brainflix{
-    height: 80vh;
+    height: 110vh;
     padding-right: 1rem;
   }
 
   .always-eating-well{
-    height: 80vh;
+    height: 110vh;
     position: relative;
     left: 0rem;
   }
 
   .bandsite{
-    height: 80vh;
+    height: 124vh;
     position: relative;
     left: 0rem;
   }
@@ -122,52 +123,67 @@
 
   #brainflix-overlay{
     position: absolute;
-    top: 135px;
+    top: 147px;
     left: 9rem;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
   }
 
   #bandsite-overlay{
     position: absolute;
-    top: 115px;
-    left: 8rem;
-    font-size: 0.8rem;
+    top: 206px;
+    left: 9rem;
+    font-size: 1.2rem;
   }
 
   #always-eating-well-overlay{
     position: absolute;
-    top: 125px;
-    left: 9rem;
-    font-size: 0.8rem;
+    top: 60px;
+    left: 11rem;
+    font-size: 1.2rem;
+    width: 78%;
   }
 }
 
 @media (min-width: 1024px) and (max-width:1440px){
-  .brainflix, .bandsite, .always-eating-well{
-    width: 100vw;
-    height: 89vh;
+  .brainflix{
+    width: 110vw;
+    height: 143vh;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+  }
+
+  .bandsite{
+    width: 110vw;
+    height: 155vh;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+  }
+
+  .always-eating-well{
+    width: 110vw;
+    height: 142vh;
     padding-bottom: 2rem;
     padding-top: 1rem;
   }
 
   #brainflix-overlay{
     position: absolute;
-    top: 216px;
-    left: 17rem;
+    top: 300px;
+    left: 18rem;
     font-size: 1.4rem;
   }
 
   #bandsite-overlay{
     position: absolute;
-    top: 200px;
-    left: 17rem;
+    top: 334px;
+    left: 18rem;
     font-size: 1.4rem;
   }
 
   #always-eating-well-overlay{
     position: absolute;
-    top: 216px;
-    left: 17rem;
+    top: 128px;
+    left: 20rem;
     font-size: 1.4rem;
   }
 
@@ -180,30 +196,45 @@
 @media (min-width: 1440px) and (max-width: 2560px){
   #brainflix-overlay{
     position: absolute;
-    top: 266px;
-    left: 26rem;
-    font-size: 1.4rem;
+    top: 375px;
+    left: 29rem;
+    font-size: 1.8rem;
   }
 
   #bandsite-overlay{
     position: absolute;
-    top: 236px;
+    top: 428px;
     left: 26rem;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
   }
 
   #always-eating-well-overlay{
     position: absolute;
-    top: 266px;
-    left: 26rem;
-    font-size: 1.4rem;
+    top: 115px;
+    left: 30rem;
+    width: 140%;
+    font-size: 1.8rem;
   }
 }
 
 @media (min-width: 2560px){
-  .brainflix, .bandsite, .always-eating-well{
+  .brainflix{
     width: 38vw;
-    height: 58vh;
+    height: 75vh;
+    padding-bottom: 5rem;
+    padding-top: 1rem;
+  }
+
+  .bandsite{
+    width: 38vw;
+    height: 80vh;
+    padding-bottom: 5rem;
+    padding-top: 1rem;
+  }
+
+  .always-eating-well{
+    width: 38vw;
+    height: 80vh;
     padding-bottom: 5rem;
     padding-top: 1rem;
   }
@@ -215,22 +246,22 @@
 
   #brainflix-overlay{
     position: absolute;
-    top: 296px;
+    top: 340px;
     left: 17rem;
     font-size: 1.8rem;
   }
 
   #bandsite-overlay{
     position: absolute;
-    top: 265px;
+    top: 400px;
     left: 17rem;
     font-size: 1.8rem;
   }
 
   #always-eating-well-overlay{
     position: absolute;
-    top: 296px;
-    left: 17rem;
+    top: 200px;
+    left: 15rem;
     font-size: 1.8rem;
   }
 }
@@ -269,9 +300,8 @@ h5{
     margin-bottom: 1rem;
 }
 
-/* @media (min-width:320px){
-  h5{
-    position: relative;
-    bottom: 28rem;
-  }
-} */
+.overlay > a{
+  text-decoration: none;
+  color:  orange;
+  font-weight: 600;
+}
